@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/Imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+    <seo>
+      <meta
+      name="description"
+      content="Factorio é um jogo eletrônico de construção e gestão. O jogo começou a ser desenvolvido em 2012 pela empresa Wube Software, sediada em Praga. O jogo foi lançado em modelo de acesso antecipado em 2016, e seu lançamento completo aconteceu em 14 de agosto de 2020."/>
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="PINGOBRAS Factorio - O Game" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="" />
+    <meta
+      property="og:description"
+      content=" Factorio é um jogo eletrônico de construção e gestão. O jogo começou a ser desenvolvido em 2012 pela empresa Wube Software, sediada em Praga. O jogo foi lançado em modelo de acesso antecipado em 2016, e seu lançamento completo aconteceu em 14 de agosto de 2020."/>
+    <meta
+      property="og:image"
+      content="./src/Imagens/Factorio Seo.jpg" >
+    <meta name="twitter:card" content="summary" />
+    </seo>
+  
+    <title>PINGOBRAS Factorio - O Game</title>
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted >
+            <source src="./src/video/bacground.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo"
+            src="./src/Imagens/favicon.ico"
+            alt="Logo Do Jogo">
+        </a>
+        <nav class="menu">
+            <ul class="menu">
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/Imagens/800px-Factorio-logo.png" alt="Imagem do titulo do jogo">
+          
+            <p class="descrincao" rgb id="descrincao">Factorio é um jogo eletrônico de construção e gestão. O jogo começou a ser desenvolvido em 2012 pela empresa Wube Software, sediada em Praga. O jogo foi lançado em modelo de acesso antecipado em 2016, e seu lançamento completo aconteceu em 14 de agosto de 2020.</p>
+          
+            <button id="botao-trailer" class="botao-trailer">Veja o Trailer</button>
+          
+        </div>
+        <img class="imagem-extra" src="./src/Imagens/niho de biter.png">
+        <img class="imagem-extra" src="./src/Imagens/Engine_(research).png">
+        <div id="modal" class="modal">
+            <div class="conteudo-modal">
+                <span id="fechar-modal" class="fechar-modal">X</span>
+                <iframe crossorigin
+                        id="video" 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/BqaAjgpsoW8" 
+                        title="Trailer Oficial" 
+                        frameborder="1" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./src/js/index.js" defer></script>
+<script src="./src/js/RGB.js" defer></script>
+</html>
